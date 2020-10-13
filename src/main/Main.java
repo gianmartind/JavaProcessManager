@@ -17,7 +17,7 @@ import model.Item;
 import java.util.Optional;
 
 public class Main extends Application {
-    HBox mainView;
+    //HBox mainView;
     VBox root;
     Label topLabel;
     static TableView<Item> mainTable;
@@ -36,7 +36,7 @@ public class Main extends Application {
 
         this.mainTable.setItems(data);
 
-        this.mainView.getChildren().addAll(this.root);
+        //this.mainView.getChildren().addAll(this.root);
         this.root.getChildren().addAll(this.topLabel, this.mainTable, this.controlTab);
 
         primaryStage.setTitle("Java Process Manager");
