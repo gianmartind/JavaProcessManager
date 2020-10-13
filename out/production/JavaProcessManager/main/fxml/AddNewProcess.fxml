@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox spacing="4.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.AddNewProcess">
+   <children>
+      <HBox alignment="CENTER_LEFT" spacing="6.0">
+         <children>
+            <Label prefWidth="60.0" text="command" />
+            <TextField fx:id="command" />
+         </children>
+      </HBox>
+      <AnchorPane>
+         <children>
+            <Button alignment="CENTER_RIGHT" mnemonicParsing="false" onAction="#addNew" fx:id="addButton" text="START" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+         </children>
+         <VBox.margin>
+            <Insets top="6.0" />
+         </VBox.margin>
+      </AnchorPane>
+   </children>
+   <padding>
+      <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+   </padding>
+</VBox>
