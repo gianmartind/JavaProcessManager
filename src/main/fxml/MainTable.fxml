@@ -4,7 +4,7 @@
 
 <TableView editable="false" prefHeight="540.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.MainTableController">
    <columns>
-      <TableColumn fx:id="colPid" minWidth="50.0" prefWidth="-1.0" text="PID" />
+      <TableColumn fx:id="colPid" minWidth="50.0" prefWidth="-1.0" style="-fx-alignment: CENTER;" text="PID" />
       <TableColumn fx:id="colCPU" minWidth="150.0" prefWidth="-1.0" text="Total CPU Duration" />
       <TableColumn fx:id="colUser" minWidth="150.0" prefWidth="-1.0" text="User" />
       <TableColumn fx:id="colStartInstant" minWidth="160.0" prefWidth="-1.0" text="Start Instant" />

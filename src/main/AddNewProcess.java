@@ -15,8 +15,7 @@ public class AddNewProcess {
     @FXML
     public void addNew(ActionEvent actionEvent) throws IOException {
         //Main.data.add(new Item(this.inputName.getText(), this.inputCPU.getText(), this.inputMemory.getText(), this.inputNetwork.getText()));
-
-
+        
         ProcessBuilder builder = new ProcessBuilder(this.command.getText());
         builder.start();
 
